@@ -11,7 +11,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Icon name="Flame" size={32} className="text-primary" />
-            <h1 className="text-2xl font-heading font-bold text-gray-800">БАБА ШАШЛЫК</h1>
+            <h1 className="text-2xl font-heading font-bold text-gray-800">ТАНДЫР</h1>
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#menu" className="text-gray-600 hover:text-primary transition-colors">Меню</a>
@@ -31,10 +31,10 @@ const Index = () => {
       <section className="relative bg-gradient-fire text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-5xl font-heading font-bold mb-6 animate-fade-in">
-            Настоящий шашлык от бабы Маши
+            Восточные блюда из настоящего тандыра
           </h2>
           <p className="text-xl mb-8 animate-fade-in">
-            Сочное мясо на углях, секретные маринады и доставка по всему городу
+            Ароматное мясо из тандыра, восточные специи и доставка по всему городу
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
             <Button size="lg" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-3">
@@ -193,9 +193,9 @@ const Index = () => {
                 О нашей шашлычной
               </h3>
               <p className="text-lg text-gray-600 mb-6">
-                Уже более 15 лет баба Маша готовит самый вкусный шашлык в городе. 
-                Секретные маринады, отборное мясо и готовка на настоящих углях - 
-                вот что делает наш шашлык особенным.
+                Уже более 15 лет мы готовим лучшие восточные блюда в настоящем тандыре. 
+                Традиционные рецепты, отборное мясо и готовка в глиняной печи - 
+                вот что делает наши блюда особенными.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -380,13 +380,13 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center mb-4">
             <Icon name="Flame" size={32} className="text-accent mr-2" />
-            <h4 className="text-2xl font-heading font-bold">БАБА ШАШЛЫК</h4>
+            <h4 className="text-2xl font-heading font-bold">ТАНДЫР</h4>
           </div>
           <p className="text-gray-300 mb-4">
-            Самый вкусный шашлык в городе с доставкой на дом
+            Лучшие восточные блюда из тандыра с доставкой на дом
           </p>
           <p className="text-sm text-gray-400">
-            © 2024 Баба Шашлык. Все права защищены.
+            © 2024 Тандыр. Все права защищены.
           </p>
         </div>
       </footer>
