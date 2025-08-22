@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import TandyrLogo from "@/components/ui/tandyr-logo";
 
 const Index = () => {
   return (
@@ -9,10 +10,7 @@ const Index = () => {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-orange-100">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <Icon name="Flame" size={32} className="text-primary" />
-            <h1 className="text-2xl font-heading font-bold text-gray-800">ТАНДЫР</h1>
-          </div>
+          <TandyrLogo size={40} />
           <nav className="hidden md:flex space-x-6">
             <a href="#menu" className="text-gray-600 hover:text-primary transition-colors">Меню</a>
             <a href="#delivery" className="text-gray-600 hover:text-primary transition-colors">Доставка</a>
@@ -379,8 +377,7 @@ const Index = () => {
       <footer className="bg-secondary text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center mb-4">
-            <Icon name="Flame" size={32} className="text-accent mr-2" />
-            <h4 className="text-2xl font-heading font-bold">ТАНДЫР</h4>
+            <TandyrLogo size={32} />
           </div>
           <p className="text-gray-300 mb-4">
             Лучшие восточные блюда из тандыра с доставкой на дом
